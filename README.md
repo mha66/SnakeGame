@@ -1,1 +1,2 @@
-# SnakeGame
+# SnakeGame in C#
+#snake project
