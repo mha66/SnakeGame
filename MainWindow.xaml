@@ -17,8 +17,6 @@
 
 
     <Viewbox>
-
-
         <Grid Height="484" Width="800">
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
@@ -31,7 +29,7 @@
                 Text="SCORE 0"
                 FontSize="22"
                 Margin="10"/>
-            <!-- RenderOptions.EdgeMode="Aliased" -->
+           
             <Border x:Name="GridBorder"
                 Grid.Row="1"
                 BorderBrush="{StaticResource GridLineColor}"
@@ -44,9 +42,8 @@
                     Width="400"
                     Height="400"
                     Background="{StaticResource GridBackgroundColor}" 
-                    SnapsToDevicePixels="True"
                     RenderOptions.BitmapScalingMode="HighQuality"
-                         />
+                    />
             </Border>
             <Border x:Name="OverLay"
                     Grid.Row="1"

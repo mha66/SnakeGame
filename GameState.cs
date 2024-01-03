@@ -108,12 +108,13 @@ namespace SnakeGame
 
             return newDir != lastDir;
         }
+
         public void ChangeDirection(Direction dir)
         {
             if(CanChangeDirection(dir))
                 dirChanges.AddLast(dir);
         }
-        
+         
         private bool OutsideGrid(Position pos)
         {
             return pos.Row < 0 || pos.Row >= rows || pos.Column < 0 || pos.Column >= columns;
